@@ -1,0 +1,16 @@
+<xf:checkboxrow>
+	<xf:option name="forum_agreement_enabled" label="{{ phrase('nf_forumagreement_show_agreement_message') }}" selected="{{ $forum.forum_agreement_enabled }}">
+		<xf:dependent>
+			<div>
+				{{ phrase('nf_forumagreement_agreement_message:') }}
+			</div>
+			<xf:textarea name="forum_agreement_message" value="{{ $forum.forum_agreement_message }}" rows="3" autosize="true" />
+		</xf:dependent>		
+		<xf:dependent>
+			<div>
+				{{ phrase('nf_forumagreement_days_until_expiry:') }}
+			</div>
+			<xf:numberbox name="forum_agreement_expiry" value="{{ $forum.forum_agreement_expiry }}" min="1" />
+		</xf:dependent>
+	</xf:option>
+</xf:checkboxrow>

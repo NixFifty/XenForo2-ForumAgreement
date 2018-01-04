@@ -1,0 +1,18 @@
+<xf:title page="{$page}">{$forum.Node.title}</xf:title>
+<xf:description>{$forum.Node.description|raw}</xf:description>
+<style>
+	.block-body {
+		padding: 10px;	
+	}
+	
+</style>
+<div class="block">
+	<div class="block-container">
+		<div class="block-body">
+				<div class="agreementText baseHtml">
+					{$agreementParsed|raw}
+				</div>
+		</div>
+	</div>
+
+</div>

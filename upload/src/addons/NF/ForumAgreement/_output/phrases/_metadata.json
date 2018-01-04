@@ -1,0 +1,20 @@
+{
+    "nf_forumagreement_agreement_message.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "0852847c5f8aa561c3004e5484cd52f5"
+    },
+    "nf_forumagreement_days_until_expiry.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "4f7f5549afd9495cf44a085a970723a7"
+    },
+    "nf_forumagreement_show_agreement_message.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "f4b1b1bedaf9f9af3ee50ba2d91baeae"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "template": "forum_edit",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:macro template=\"node_edit_macros\" name=\"description\" arg-node=\"{$node}\" />",
+    "replace": "$0\n<xf:include template=\"nf_forumagreement_forum_edit\" />"
+}

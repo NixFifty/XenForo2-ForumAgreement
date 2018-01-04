@@ -1,0 +1,12 @@
+{
+    "admin/nf_forumagreement_forum_edit.html": {
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "5a797793da827a95e4ce4853786f55f4"
+    },
+    "public/nf_forumagreement_agreement.html": {
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "be2900c6a3436bfc9a9492af8b6b1f06"
+    }
+}
